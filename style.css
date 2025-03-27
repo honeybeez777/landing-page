@@ -8,7 +8,7 @@ body {
 
 li {
     list-style-type: none;
-    font-size: 15px;
+    font-size: 24px;
 }
 
 a {
@@ -24,11 +24,11 @@ ul {
 
 h3{
     font-weight: 900;
-    font-size: 30px;
+    font-size: 24px;
 }
 .header {
     color: rgb(239, 237, 237);
-    background-color: rgb(201, 171, 200);
+    background-color: rgba(113, 67, 27, 0.582);
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -36,7 +36,7 @@ h3{
 }
 
 .top {
-    background-color: rgb(201, 171, 200);
+    background-color: rgba(113, 67, 27, 0.582);
     display: flex;
     justify-content: center;
     
@@ -52,27 +52,29 @@ h3{
     flex: 0 0 auto;
 }
 
-.description {
+.main {
     font-size: 48px;
     width: auto;
 }
 
-p {
+.text {
     font-size: 20px;
     color: #3a3a3aae;
 }
 .button1 {
-    padding: 10px 17px;
+    padding: 10px 25px;
     font-size: 14px;
-    background-color: #564456;
-    color: black;
+    background-color: #553000;
+    color: rgb(255, 255, 255);
+    border-color: #553000;
     border-radius: 5px;
 }
 
-img {
+.coffeecups {
     flex: 1 0 auto; 
     max-width: 350px;
     margin: 40px;
+    border-radius: 5px;
 }
 
 .intro {
@@ -88,28 +90,33 @@ img {
     margin: 100px;
     gap: 15px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center; 
     align-items: center;
 }
 
-.image1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.image {
 }
 
 .quote {
-    padding: 100px 400px;
+    padding: 100px 450px;
     font-size: 30px;
     font-weight: 500;
     background-color: #c2bec24a;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.quoter {
+    font-size: 20px;
+    color: #262525ae;
 }
 
 .bottom {
     margin: 100px 300px; 
     padding: 50px 100px; 
-    background-color: #af67af;
+    background-color: #5f4e34;
+    color: white;
     border-radius: 5px;
     font-size: 20px;
     display: flex;
@@ -119,15 +126,16 @@ img {
 .button2 {
     padding: 10px 17px;
     font-size: 14px;
-    background-color: #af67af;
+    background-color: #5f4e34;
     border-color: white;
     color: white;
     border-radius: 5px;
+    flex-shrink: 0;
 }
 
 .footer {
     padding: 20px;
-    background-color: #3d383d63;
+    background-color: #736f6863;
     display: flex;
     justify-content: center;
     align-items: center;
