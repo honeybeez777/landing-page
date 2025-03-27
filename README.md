@@ -1,6 +1,5 @@
 # landing-page
 
-I am still having to look step in HTML, such as how to link photos, how to attach CSS style sheet
-
-I think I used a lot of HTML, but I'm not really sure. I tried organizing it as best as I could.
-I use a lot of <div>, but I think that is okay. 
+I didn't completely follow the guidelines because I wanted to make the website my own and something a little more personaly.
+ I tried to keep the general structure the same, but just tweaked some stuff here and there. 
+Still learned a whole lot!  
